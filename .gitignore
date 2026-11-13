@@ -1,0 +1,10 @@
+# Archivos basura del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración personal del editor
+.vscode/
+
+# Para más adelante: dependencias y secretos
+node_modules/
+.env
