@@ -8,18 +8,18 @@
 </head>
 <body>
     <main>
-        <form class="form">
+        <form class="form" method="post">
             <h1>Crear cuenta</h1>
             <div class="fila">
-                <label>Nombre:<br><input class="campo" required name="first_name"></label>
-                <label>Apellidos:<br><input class="campo" required name="last_name"></label>
+                <label>Nombre:<br><input class="campo" autocomplete="given-name" required name="first_name"></label>
+                <label>Apellidos:<br><input class="campo" autocomplete="family-name" required name="last_name"></label>
             </div>
-            <label>Correo electrónico:<br><input type="email" placeholder="ejemplo@gmail.com" class="campo" required name="email"></label>
-            <label>Contraseña:<br><input type="password" class="campo" required name="password"></label>
-            <label>Confirmar contraseña:<br><input type="password" class="campo" required name="confirm_password"></label>
-            <input type="submit" class="enviar" value="Crear cuenta" name="submit">
+            <label>Correo electrónico:<br><input type="email" placeholder="ejemplo@gmail.com" class="campo" autocomplete="email" required name="email"></label>
+            <label>Contraseña:<br><input type="password" class="campo" autocomplete="new-password" required name="password"></label>
+            <label>Confirmar contraseña:<br><input type="password" class="campo" autocomplete="new-password" required name="confirm_password"></label>
+            <input type="submit" class="enviar" value="Crear cuenta">
             <div class="divisor"></div>
-            <a href="">Iniciar sesion</a>
+            <a href="">Iniciar sesión</a>
         </form>
     </main>
 </body>
