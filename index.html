@@ -11,12 +11,12 @@
         <form class="form">
             <h1>Crear cuenta</h1>
             <div class="fila">
-                <input placeholder="Nombre" class="campo" required name="nombre">
-                <input placeholder="Apellidos" class="campo" required name="apellidos">
+                <label>Nombre:<br><input class="campo" required name="nombre"></label>
+                <label>Apellidos:<br><input class="campo" required name="apellidos"></label>
             </div>
-            <input type="email" placeholder="Correo electrónico" class="campo" required name="email">
-            <input type="password" placeholder="Contraseña" class="campo" required name="contrasena">
-            <input type="password" placeholder="Confirmar contraseña" class="campo" required name="contrasena">
+            <label>Correo electrónico:<br><input type="email" placeholder="ejemplo@gmail.com" class="campo" required name="email"></label>
+            <label>Contraseña:<br><input type="password" class="campo" required name="contrasena"></label>
+            <label>Confirmar contraseña:<br><input type="password" class="campo" required name="confirmarContrasena"></label>
             <input type="submit" class="enviar" value="Crear cuenta" name="enviar">
             <div class="divisor"></div>
             <a href="">Iniciar sesion</a>
