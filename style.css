@@ -16,11 +16,9 @@ body {
     background-color: #436a96;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    min-width: 70vw;
     gap: 20px;
-    max-width: 60vw;
     padding: 30px;
-    margin: 50px;
     border-radius: 20px;
     border-bottom: 2px solid #eee;
     box-shadow: 0 0 40px -10px #000;
@@ -34,6 +32,7 @@ body {
 
 .fila {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -86,4 +85,20 @@ body {
 
 .enlaceLogin:hover {
     color: #ceeaff;
+}
+
+@media screen and (min-width: 768px) {
+    .form {
+        max-width: 60vw;
+        padding: 30px;
+    }
+
+    .fila {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fila input {
+        width: 100%;
+    }
 }
