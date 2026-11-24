@@ -40,9 +40,6 @@ body {
 .form label {
     font-size: 18px;
     color: #eee;
-}
-
-.contenedorLabel {
     display: flex;
     flex-direction: column;
 }
@@ -69,24 +66,24 @@ body {
 
 .enviar:hover {
     background-color: #eee;
-    color: black;
+    color: #032852;
 }
 
 .divisor {
     border-bottom: 2px solid #032852;
 }
 
-.form p {
+.textoLogin {
     color: #eee;
     font-size: 20px;
 }
 
-.form a {
+.enlaceLogin {
     color: #eee;
     font-size: 20px;
     transition: color 0.2s;
 }
 
-.form a:hover {
-    color: #032852;
+.enlaceLogin:hover {
+    color: #ceeaff;
 }
