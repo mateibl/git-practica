@@ -68,10 +68,6 @@ body {
     color: #032852;
 }
 
-.divisor {
-    border-bottom: 2px solid #032852;
-}
-
 .textoLogin {
     color: #eee;
     font-size: 20px;
@@ -96,10 +92,6 @@ body {
     .form__row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .form__row input {
-        width: 100%;
     }
 
     .enviar {
