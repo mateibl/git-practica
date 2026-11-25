@@ -9,28 +9,28 @@
 <body>
     <main>
         <form class="form" method="post">
-            <h1>Crear cuenta</h1>
+            <h1 class="form__title">Crear cuenta</h1>
             <div class="form__row">
-                <label>Nombre:
-                    <input class="campo" autocomplete="given-name" required name="first_name">
+                <label class="form__label">Nombre:
+                    <input class="form__field" autocomplete="given-name" required name="first_name">
                 </label>
 
-                <label>Apellidos:
-                    <input class="campo" autocomplete="family-name" required name="last_name">
+                <label class="form__label">Apellidos:
+                    <input class="form__field" autocomplete="family-name" required name="last_name">
                 </label>   
             </div>
-            <label>Correo electrónico:
-                <input type="email" placeholder="nombre@example.com" class="campo" autocomplete="email" required name="email">
+            <label class="form__label">Correo electrónico:
+                <input type="email" placeholder="nombre@example.com" class="form__field" autocomplete="email" required name="email">
             </label>
-            <label>Contraseña:
-                <input type="password" class="campo" autocomplete="new-password" required name="password">
+            <label class="form__label">Contraseña:
+                <input type="password" class="form__field" autocomplete="new-password" required name="password">
             </label>
-            <label>Confirmar contraseña:
-                <input type="password" class="campo" autocomplete="new-password" required name="confirm_password">
+            <label class="form__label">Confirmar contraseña:
+                <input type="password" class="form__field" autocomplete="new-password" required name="confirm_password">
             </label>
-            <input type="submit" class="enviar" value="Crear cuenta">
+            <input type="submit" class="form__submit" value="Crear cuenta">
         </form>
-        <p class="textoLogin">¿Ya tienes cuenta? <a class="enlaceLogin" href="login.html">Iniciar sesión</a></p>
+        <p class="account-login">¿Ya tienes cuenta? <a class="account-login__link" href="login.html">Iniciar sesión</a></p>
     </main>
 </body>
 </html>

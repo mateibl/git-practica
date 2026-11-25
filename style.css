@@ -24,7 +24,7 @@ body {
     box-shadow: 0 0 40px -10px #000;
 }
 
-.form h1 {
+.form__title {
     font-size: 35px;
     color: #eee;
     margin: 0;
@@ -36,14 +36,14 @@ body {
     gap: 20px;
 }
 
-.form label {
+.form__label {
     font-size: 18px;
     color: #eee;
     display: flex;
     flex-direction: column;
 }
 
-.campo {
+.form__field {
     background-color: #eee;
     border: none;
     border-left: 3px solid #032852;
@@ -53,7 +53,7 @@ body {
     width: 100%;
 }
 
-.enviar {
+.form__submit {
    width: 100%;
    border: none;
    background-color: #032852;
@@ -63,23 +63,23 @@ body {
    transition: background-color 0.2s, color 0.2s;
 }
 
-.enviar:hover {
+.form__submit:hover {
     background-color: #eee;
     color: #032852;
 }
 
-.textoLogin {
+.account-login {
     color: #eee;
     font-size: 20px;
 }
 
-.enlaceLogin {
+.account-login__link {
     color: #eee;
     font-size: 20px;
     transition: color 0.2s;
 }
 
-.enlaceLogin:hover {
+.account-login__link:hover {
     color: #ceeaff;
 }
 
@@ -94,7 +94,7 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .enviar {
+    .form__submit {
         width: 50%;
     }
 }
